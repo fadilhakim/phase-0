@@ -16,11 +16,11 @@
     <!--Full Name and Email-->
     <p>
       <label for="full-name">Full Name:<br></label>
-      <input id="full-name" name="fullName" type="text">
+      <input id="full-name" name="fullName" type="text" pattern="[A-Za-z]">
     </p>
     <p>
       <label for="email">Email Address:<br></label>
-      <input id="email" name="email" type="email">
+      <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
     </p>
 
     <!--Gender-->
@@ -244,7 +244,9 @@
       <input id="mathematics-checkbox" type="checkbox" name="interest" value="mathematics">
       <label for="mathematics-checkbox">Technology</label>
     </p><br>
-    <input type="submit" value="Submit">
+
+    <!--Submit the form-->
+    <input type="submit" value="Entertain Me!">
   </form>
 </body>
 
