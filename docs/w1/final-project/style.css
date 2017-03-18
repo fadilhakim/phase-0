@@ -122,8 +122,8 @@ section {
 }
 
 .circle {
-  height: 170px;
-  width: 170px;
+  height: 120px;
+  width: 120px;
   display: table-cell;
   vertical-align: middle;
   border-radius: 50%;
